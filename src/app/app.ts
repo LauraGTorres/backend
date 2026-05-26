@@ -43,7 +43,7 @@ export class Server implements ServerApp {
 
     // Ruta raíz de prueba para verificar que el servidor está activo
     this.app.get("/", (_req: Request, res: Response) => {
-      res.send("Hello profe");
+      res.send("Hello World");
     });
 
     // Inicia el servidor HTTP y comienza a escuchar en el puerto configurado
